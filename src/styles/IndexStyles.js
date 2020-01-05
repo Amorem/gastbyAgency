@@ -1,10 +1,29 @@
 import styled from "styled-components"
 
+const GenereicPara = styled.p`
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: ${props => (props.lessSpacing ? "0.075em" : "0.225em")};
+  font-size: ${props => (props.lessSize ? "1.5rem" : "2.5rem")};
+  line-height: ${props => (props.lessSize ? "2rem" : "3rem")};
+  color: ${props => (props.grey ? "#c8ece9" : "#ffffff")};
+`
+
+const GenericH2 = styled.h2`
+  font-size: 3rem;
+  padding: ${props => (props.none ? "0" : "1.35em 0")};
+  color: ${props => (props.dark ? "#4E4852" : "#ffffff")};
+  border-bottom: ${props => (props.none ? "0" : "2px solid #1d9c91")};
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+  margin: ${props => (props.some ? "5rem 0 0 0" : "0")};
+`
+
 const Banner = styled.div`
   &:after {
     content: "";
     display: block;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background-image: url("banner.jpg");
     background-size: cover;
@@ -18,7 +37,7 @@ const TextWrapper = styled.div`
   position: absolute;
   z-index: 1;
   left: 50%;
-  top: 50%;
+  top: 25%;
   transform: translate(-50%, -50%);
   color: white;
   div {
@@ -67,4 +86,56 @@ const MoreText = styled.div`
   transform: translate(-50%, -50%);
 `
 
-export { Banner, TextWrapper, MoreText }
+const SectionTwo = styled.section`
+  background-color: ${props => (props.white ? "#ffffff" : "#21b2a6")};
+  text-align: center;
+  padding: 10rem 0;
+  div {
+    width: 66%;
+    margin: 0 auto;
+  }
+  h5 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #ffffff;
+    border-bottom: 2px solid #1d9c91;
+    font-weight: 800;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    margin-bottom: 5rem;
+  }
+`
+
+const SectionThree = styled.section`
+  background-color: #2b343d;
+  color: #ffffff;
+`
+
+const FlexBoxIndex = styled.div`
+  display: flex;
+  .image {
+    width: ${props => (props.inverse ? "60%" : "20%")};
+  }
+  img {
+    width: 100%;
+  }
+  .text__section3 {
+    width: ${props => (props.inverse ? "40%" : "80%")};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+`
+
+export {
+  Banner,
+  TextWrapper,
+  MoreText,
+  SectionTwo,
+  SectionThree,
+  FlexBoxIndex,
+  GenereicPara,
+  GenericH2,
+}
