@@ -11,22 +11,7 @@ import {
   SectionThree,
   SectionFour,
   FlexBoxIndex,
-  Header,
-  Footer,
 } from "../styles/IndexStyles"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { faHeart, faCode, faGem, fas } from "@fortawesome/free-solid-svg-icons"
-import {
-  fab,
-  faHtml5,
-  faJs,
-  faReact,
-  faCss3,
-  faGalacticSenate,
-} from "@fortawesome/free-brands-svg-icons"
-
-library.add(faHeart, faCode, faGem, fas)
 
 export default () => (
   <Layout>

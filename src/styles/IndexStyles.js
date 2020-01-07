@@ -234,6 +234,52 @@ const Header = styled.header`
   }
 `
 
+const FormFive = styled.div`
+  margin-top: -10px;
+  margin-bottom: -10px;
+
+  padding-left: 50px;
+  background: #1d508e;
+  color: white;
+  form > .fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    appearance: none;
+    font-size: 2rem;
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+  }
+  input[type="text"],
+  input[type="email"] {
+    height: 2.75em;
+    padding: 0.75em 1em;
+  }
+  textarea {
+    padding: 0.75em 1em;
+  }
+  .button__primary {
+    background-color: #ed4933;
+    box-shadow: none;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.225em;
+    padding: 1.8rem 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+`
+
 export {
   Banner,
   TextWrapper,
@@ -246,4 +292,5 @@ export {
   GenericH2,
   Header,
   Footer,
+  FormFive,
 }
