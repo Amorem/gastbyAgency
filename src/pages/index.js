@@ -127,7 +127,7 @@ export default () => (
           <br />
         </GenereicPara>
       </div>
-      <div className="grid__section4">
+      {/* <div className="grid__section4">
         <div className="item1" style={{ backgroundColor: "#1D508E" }}>
           <div className="flex__section4">
             <FontAwesomeIcon
@@ -209,7 +209,7 @@ export default () => (
             developers build blazing fast websites and apps
           </GenereicPara>
         </div>
-      </div>
+      </div> */}
     </SectionFour>
   </>
 )

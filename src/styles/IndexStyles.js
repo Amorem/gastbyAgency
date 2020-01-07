@@ -65,7 +65,7 @@ const TextWrapper = styled.div`
     flex-direction: column;
   }
   h2 {
-    font-size: 5rem;
+    font-size: 7rem;
     opacity: 1;
     padding: 0.35em 1em;
     /* border-top: 2px solid white;
