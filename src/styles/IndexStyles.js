@@ -133,15 +133,18 @@ const SectionThree = styled.section`
 
 const FlexBoxIndex = styled.div`
   display: flex;
+
+  justify-content: center;
   .image {
-    width: ${props => (props.inverse ? "60%" : "20%")};
+    width: "10%";
     margin: 25px;
+    margin-right: 0px;
   }
   img {
-    width: 100%;
+    width: 60%;
   }
   .text__section3 {
-    width: ${props => (props.inverse ? "40%" : "80%")};
+    width: ${props => (props.inverse ? "10%" : "60%")};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,6 +191,46 @@ const SectionFour = styled.section`
   }
 `
 
+const Footer = styled.footer`
+  padding: 6em 0 4em 0;
+  background-color: #1d242a;
+  text-align: center;
+  .icons > * {
+    cursor: pointer;
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    letter-spacing: 0.225em;
+    padding: 0;
+    text-transform: uppercase;
+    margin-top: 1rem;
+  }
+`
+
+const Header = styled.header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background-color: #1d242a;
+  color: #ffffff;
+  padding: 3rem 0;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .menu__items {
+    display: flex;
+  }
+  .menu__items > * {
+    margin-right: 1rem;
+  }
+`
+
 export {
   Banner,
   TextWrapper,
@@ -198,4 +241,6 @@ export {
   FlexBoxIndex,
   GenereicPara,
   GenericH2,
+  Header,
+  Footer,
 }

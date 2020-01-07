@@ -10,6 +10,8 @@ import {
   SectionThree,
   SectionFour,
   FlexBoxIndex,
+  Header,
+  Footer,
 } from "../styles/IndexStyles"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { library } from "@fortawesome/fontawesome-svg-core"
@@ -86,13 +88,13 @@ export default () => (
         </div>
       </FlexBoxIndex>
       <FlexBoxIndex>
+        <div className="image">
+          <img src="accompagnement-expert.jpg" alt="Accompagnement Experts" />
+        </div>
         <div className="text__section3">
           <GenereicPara none>
             BÉNÉFICIEZ D’UN ACCOMPAGNEMENT D’EXPERT
           </GenereicPara>
-        </div>
-        <div className="image">
-          <img src="accompagnement-expert.jpg" alt="Accompagnement Experts" />
         </div>
       </FlexBoxIndex>
       <FlexBoxIndex>
