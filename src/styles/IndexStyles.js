@@ -43,12 +43,11 @@ const Banner = styled.div`
     display: block;
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(10, 92, 124, 0.2), black),
+    background-image: linear-gradient(rgba(10, 92, 124, 0.2), #1d508e),
       url("banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(2px);
   }
 `
 
@@ -155,7 +154,7 @@ const SectionFour = styled.section`
   color: #1d508e;
   text-align: center;
   .header__section4 {
-    width: 66%;
+    width: 80%;
     margin: 0 auto;
   }
   .title__section4 {
