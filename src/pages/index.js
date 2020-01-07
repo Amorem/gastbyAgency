@@ -113,18 +113,20 @@ export default () => (
         <div className="title__section4">L'EXPERTISE BS MOVE</div>
         <GenereicPara lessSize>
           Basée à Meaux, en Ile de France, notre équipe vous accompagnera pas à
-          pas et restera à votre écoute tout au long de votre déménagement.
+          pas et restera <strong>à votre écoute</strong> tout au long de votre
+          déménagement.
           <br />
-          <br /> Nos déménageurs BS MOVE sont régulièrement formés afin de
-          toujours vous offrir le meilleur service possible.
+          <br /> Nos déménageurs BS MOVE sont{" "}
+          <strong>régulièrement formés</strong> afin de toujours vous offrir le
+          meilleur service possible.
           <br />
           <br />
-          Nous nous occupons de l’ensemble de vos biens, et nous les déplaçons
-          vers votre futur logement.
+          Nous nous occupons de <strong>l’ensemble de vos biens</strong>, et
+          nous les déplaçons vers votre futur logement.
           <br />
           <br /> Finis le stress, vous ne pensez plus à rien ! Nous transportons
-          vos biens en toute sécurité vers votre nouveau logement et les plaçons
-          où vous le souhaitez.
+          vos biens en <strong>toute sécurité</strong> vers votre nouveau
+          logement et les plaçons où vous le souhaitez.
           <br />
           <br />
         </GenereicPara>
