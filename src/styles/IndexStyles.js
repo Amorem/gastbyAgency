@@ -25,11 +25,13 @@ const Banner = styled.div`
     display: block;
     height: 50vh;
     width: 100%;
-    background-image: url("banner.jpg");
+
+    background-image: linear-gradient(rgba(10, 92, 124, 0.2), black),
+      url("banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: grayscale(100%) blur(2px);
+    filter: blur(2px);
   }
 `
 
@@ -116,6 +118,7 @@ const FlexBoxIndex = styled.div`
   display: flex;
   .image {
     width: ${props => (props.inverse ? "60%" : "20%")};
+    margin: 25px;
   }
   img {
     width: 100%;

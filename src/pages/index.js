@@ -24,13 +24,9 @@ export default () => (
         <div>
           <h2>BS Move</h2>
           <GenereicPara>
-            One Stop For
-            <br />
-            All your development
-            <br />
-            And design needs
+            Offrez-vous un déménagement à la hauteur de vos attentes !
           </GenereicPara>
-          <Link to="/works">Our Work</Link>
+          <Link to="/works">Votre devis en 1 click</Link>
         </div>
       </TextWrapper>
       <MoreText>Learn More</MoreText>
@@ -76,19 +72,15 @@ export default () => (
           <img src="gain-temps.jpg" alt="Gain de temps" />
         </div>
         <div className="text__section3">
-          <GenericH2 none>Website Development</GenericH2>
-          <GenereicPara lessSize lessSpacing>
-            We hand code beautiful websites using HTML5, CSS3, JS because they
-            are fully customizable and efficient. No Worpress websites here.
+          <GenereicPara none>
+            GAGNEZ DU TEMPS SUR VOTRE DÉMÉNAGEMENT
           </GenereicPara>
         </div>
       </FlexBoxIndex>
       <FlexBoxIndex>
         <div className="text__section3">
-          <GenericH2 none>Website Design</GenericH2>
-          <GenereicPara lessSize lessSpacing>
-            We have talented and experienced Web Designers, who can design
-            beautiful and usable websites.
+          <GenereicPara none>
+            BÉNÉFICIEZ D’UN ACCOMPAGNEMENT D’EXPERT
           </GenereicPara>
         </div>
         <div className="image">
@@ -100,10 +92,8 @@ export default () => (
           <img src="petit-prix.jpg" alt="Pas Cher" />
         </div>
         <div className="text__section3">
-          <GenericH2 none>Mobile App Development</GenericH2>
-          <GenereicPara lessSize lessSpacing>
-            We develop Mobile apps in Reactive Native, which can be used in both
-            ios and Android.
+          <GenereicPara none>
+            UN SERVICE PROFESSIONNEL À PETIT PRIX
           </GenereicPara>
         </div>
       </FlexBoxIndex>
