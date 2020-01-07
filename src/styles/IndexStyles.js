@@ -41,7 +41,7 @@ const Banner = styled.div`
   &:after {
     content: "";
     display: block;
-    height: 50vh;
+    height: 55vh;
     width: 100%;
     background-image: linear-gradient(rgba(10, 92, 124, 0.2), #1d508e),
       url("banner.jpg");
@@ -55,7 +55,7 @@ const TextWrapper = styled.div`
   position: absolute;
   z-index: 1;
   left: 50%;
-  top: 25%;
+  top: 27%;
   transform: translate(-50%, -50%);
   color: white;
   div {
@@ -84,7 +84,7 @@ const TextWrapper = styled.div`
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.225em;
-    padding: 1.8rem 0.8rem;
+    padding: 2.8rem 1.8rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -193,7 +193,7 @@ const SectionFour = styled.section`
 
 const Footer = styled.footer`
   padding: 6em 0 4em 0;
-  background-color: #1d242a;
+  background-color: #1d508e;
   text-align: center;
   .icons > * {
     cursor: pointer;
@@ -216,18 +216,20 @@ const Header = styled.header`
   align-items: center;
   width: 100%;
   height: 30px;
-  background-color: #1d242a;
-  color: #ffffff;
+  color: #fff;
   padding: 3rem 0;
   z-index: 1000;
   position: fixed;
   top: 0;
   left: 0;
   .menu__items {
+    color: #fff;
     display: flex;
   }
   .menu__items > * {
-    margin-right: 1rem;
+    color: #fff;
+    font-weight: 800;
+    margin-right: 2rem;
   }
 `
 

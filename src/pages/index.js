@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/layout"
 import {
   GenereicPara,
   GenericH2,
@@ -28,7 +29,7 @@ import {
 library.add(faHeart, faCode, faGem, fas)
 
 export default () => (
-  <>
+  <Layout>
     <section>
       <Banner></Banner>
       <TextWrapper>
@@ -215,5 +216,5 @@ export default () => (
         </div>
       </div> */}
     </SectionFour>
-  </>
+  </Layout>
 )
