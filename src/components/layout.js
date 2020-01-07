@@ -23,6 +23,11 @@ export default ({ children }) => (
         </Link>
       </GenericH2>
       <div className="menu__items">
+        <Link to="/blog">
+          <GenereicPara lessSize lessSpacing grey>
+            Actualités
+          </GenereicPara>
+        </Link>
         <Link to="/services">
           <GenereicPara lessSize lessSpacing grey>
             Services

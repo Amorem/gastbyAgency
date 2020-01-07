@@ -74,17 +74,17 @@ const TextWrapper = styled.div`
     margin: 0;
   }
   a {
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: #ed4933;
     box-shadow: none;
     color: #ffffff;
-    border-radius: 3px;
+    border-radius: 30px;
     border: 0;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
     letter-spacing: 0.225em;
-    padding: 2.8rem 1.8rem;
+    padding: 2.8rem 2.8rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -230,6 +230,7 @@ const Header = styled.header`
     color: #fff;
     font-weight: 800;
     margin-right: 2rem;
+    text-transform: uppercase;
   }
 `
 
