@@ -23,7 +23,7 @@ export default () => (
           <GenereicPara>
             Un déménagement à la hauteur de vos attentes
           </GenereicPara>
-          <Link to="/works">Votre devis en 1 clic</Link>
+          <Link to="/">Votre devis en 1 clic</Link>
         </div>
       </TextWrapper>
     </section>
