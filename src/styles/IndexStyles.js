@@ -129,6 +129,7 @@ const SectionTwo = styled.section`
 const SectionThree = styled.section`
   background-color: #1d508e;
   color: #ffffff;
+  padding-bottom: 100px;
 `
 
 const FlexBoxIndex = styled.div`

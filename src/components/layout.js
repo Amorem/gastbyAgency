@@ -23,17 +23,17 @@ export default ({ children }) => (
         </Link>
       </GenericH2>
       <div className="menu__items">
-        <Link to="/blog">
+        <Link to="/">
           <GenereicPara lessSize lessSpacing grey>
             Actualités
           </GenereicPara>
         </Link>
-        <Link to="/services">
+        <Link to="/">
           <GenereicPara lessSize lessSpacing grey>
             Services
           </GenereicPara>
         </Link>
-        <Link to="/avis">
+        <Link to="/">
           <GenereicPara lessSize lessSpacing grey>
             Temoignages
           </GenereicPara>
